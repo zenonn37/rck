@@ -1,3 +1,15 @@
+
+/*colors
+
+#262626 panels only/sub_footer
+#282b2d background only
+#f1c40f headers and tags trim, screen overlays
+#01020b header/footer only
+
+
+
+*/
+
 body{
     font-family:'Raleway', helvetica, arial;
     font-size:16px;
@@ -5,3 +17,61 @@ body{
     background-color:#282b2d;
     
 }
+
+
+
+/*start hobbyshop*/
+
+.hero3{
+        
+    background-color:#fff;
+    height:250px;
+    
+    
+}
+
+
+.hero4{
+        
+    background-color:#ffff00;
+    height:50px;
+    
+    
+}
+
+
+
+
+
+
+.hero_last{
+    height:250px;
+    background-color:#666666;
+    background-size:cover;
+}
+
+
+
+.footer{
+    
+    background-color:#262626;
+    height:450px;
+}
+
+footer{
+    
+     background-color:#01020b;
+    height:50px;
+    
+}
+
+/*colors
+
+#262626 panels only/sub_footer
+#282b2d background only
+#f1c40f headers and tags trim, screen overlays
+#01020b header/footer only
+
+
+
+*/
