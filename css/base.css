@@ -19,6 +19,191 @@ body{
 }
 
 
+h1,h2,h3,h4,h5,h6{
+	color: #333333;
+	text-transform: uppercase;
+	font-family: 'Raleway',Helvectica,Arial;
+	font-weight: 700;
+}
+
+.titles{
+	color: #f1c40f;
+    padding:20px;
+
+
+}
+
+
+
+.titles .lines{
+	background-color:#f1c40f;
+    height:5px;
+    width:70px;
+    
+
+
+}
+
+
+
+.navbar{
+
+border-radius:none;
+    border:none;
+    margin:0;
+}
+
+
+
+.navbar-default {
+background-color: #01020b;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+color: #666666;
+    font-size:14px;
+    text-transform:uppercase;
+    font-weight:600;
+}
+
+
+
+.jumbotron{
+	background: #2c3e50 url(img/car_final.png) center no-repeat;
+	background-size:cover;
+	max-height: 700px;
+	padding: 60px 0;
+	margin: 0;
+}
+
+
+.jumbotron h1{
+	font-size:30px;
+}
+
+.jumbotron p{
+	font-size:16px;
+}
+
+
+
+.jumbotron .heroHold{
+    
+max-height: 600px;
+max-width:700px;
+    min-width:370px;
+padding: 90px;
+margin-bottom: 20px;
+    margin-top:20px;
+background-color:none;
+border: 1px solid transparent;
+border-radius: 2px;
+ 
+
+
+	
+}
+
+
+
+.jumbotron .heroHold .heroTag   {
+    
+max-height: 200px;
+max-width:500px;
+padding: 6px;
+margin-bottom: 20px;
+background-color:#fff;
+border: 1px solisd transparent;
+border-radius: 2px;
+    color:##282b2d;
+ 
+
+
+	
+}
+
+
+
+.jumbotron .heroHold .heroP  {
+    
+max-height: 200px;
+max-width:500px;
+padding: 6px;
+margin-bottom: 20px;
+background-color:#282b2d;
+border: 1px solisd transparent;
+border-radius: 2px;
+    color:#fff;
+ 
+
+
+	
+}
+
+
+
+.jumbotron .btn-primary {
+color: #262626;
+background-color: #f1c40f;
+border-color: transparent;
+ width:200px;
+    float:right;
+    margin-right:80px;
+}
+
+
+
+
+
+.jumbotron .btn {
+display: inline-block;
+padding: 8px 12px;
+margin-bottom: 0;
+font-size: 16px;
+font-weight: 600;
+line-height: 1.428571429;
+text-align: center;
+white-space: nowrap;
+vertical-align: misddle;
+cursor: pointer;
+background-image: none; 
+border: 1px solid transparent;
+border-radius: 2px;
+   
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+
+}
+
+
+
+
+.heroSub{
+
+background:#262626 url(img/hero_sub.png) repeat;
+    height:150px;
+}
+
+
+
+
+
+
+
+
+
+
+.trim{
+
+height:5px;
+    background-color:#f1c40f;
+
+
+}
 
 /*start hobbyshop*/
 
