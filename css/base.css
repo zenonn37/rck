@@ -26,6 +26,19 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 700;
 }
 
+
+a{
+
+color:#ecf0f1;
+    text-decoration:none;
+}
+
+
+
+a:hover, a:focus{
+	color: #308ac6;
+}
+
 .titles{
 	color: #f1c40f;
     padding:20px;
@@ -38,8 +51,18 @@ h1,h2,h3,h4,h5,h6{
 .titles .lines{
 	background-color:#f1c40f;
     height:5px;
-    width:70px;
+    width:82px;
     
+
+
+}
+
+
+.titlesServices{
+color: #f1c40f;
+margin-top:10px;
+    margin-bottom:60px;
+
 
 
 }
@@ -202,6 +225,45 @@ background:#262626 url(img/hero_sub.png) repeat;
 height:5px;
     background-color:#f1c40f;
 
+
+}
+
+
+
+
+/*Services*/
+.services h4, h5{
+color:#f1c40f;
+
+
+}
+
+
+.services p{
+color:#ecf0f1;
+    font-size:14px;
+    margin-bottom:40px;
+    margin-top:5px;
+
+
+}
+
+
+
+.services img{
+
+
+   
+    padding-left:15px;
+
+}
+
+
+.services .panel {
+margin-bottom: 20px;
+background-color: #262626;
+border: 1px solid transparent;
+border-radius: 2px;
 
 }
 
