@@ -434,10 +434,50 @@ margin-left: auto;
 
 
 
+/*service pages*/
+
+.services-page .hero4{
+
+ background-color:#f1c40f;
+    height:300px;
+    margin-bottom:130px;
+
+}
+    
+    
+    
+    
+    
+
+
+.services-page .panel{
+
+margin-bottom: 20px;
+background-color:transparent;
+    
+    border-radius:0;
+    border:0;
+
+}
+
+
+
+.services-page .titlesServices{
+color: #ecf0f1;
+margin-top:10px;
+    margin-bottom:10px;
+
+
+
+}
+
+
+
+
 .footer{
     
     background-color:#262626;
-    height:450px;
+    height:auto;
 }
 
 .footer .panel{
