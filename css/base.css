@@ -28,6 +28,12 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 700;
 }
 
+p{
+line-height:30px;
+    font-weight:400;
+
+}
+
 
 a{
 
@@ -77,6 +83,8 @@ border-radius:none;
     border:none;
     margin:0;
 }
+
+
 
 
 
@@ -209,8 +217,8 @@ user-select: none;
 
 .heroSub{
 
-background:#262626 url(img/hero_sub.png) repeat;
-    height:150px;
+background:#f1c40f;
+    height:50px;
 }
 
 
@@ -237,7 +245,7 @@ height:5px;
 
 
 .services{
-
+margin-top:130px;
 margin-bottom:130px;
 
 }
@@ -549,6 +557,119 @@ footer{
     margin:0;
     
     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:480px){
+
+            .jumbotron {
+        
+        
+        max-height: 400px;
+        padding: 60px 0;
+        margin: 0;
+        }
+        
+        
+        
+        .jumbotron .heroHold {
+        max-height: 600px;
+        max-width: 320px;
+        min-width: 300px;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        background-color: none;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        }
+        
+        
+        
+        .jumbotron h1{
+            font-size:20px;
+        }
+        
+        .jumbotron p{
+            font-size:14px;
+        }
+
+
+
+
+      .jumbotron .heroHold .heroTag   {
+    
+max-height: 200px;
+max-width:300px;
+
+
+
+ 
+
+
+	
+}
+
+
+
+.jumbotron .heroHold .heroP  {
+    
+max-height: 200px;
+max-width:300px;
+
+
+
+
+
+   
+ 
+
+
+	
+}
+
+
+
+.jumbotron .btn-primary {
+color: #262626;
+background-color: #f1c40f;
+border-color: transparent;
+ width:200px;
+    float:right;
+    margin-right:50px;
+}
+
+
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+
+  border-bottom: 2px solid #fff;
+
+   }
+
 }
 
 /*colors
