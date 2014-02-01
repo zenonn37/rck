@@ -88,7 +88,7 @@ margin-top:10px;
 
 .navbar{
 
-border-radius:none;
+border-radius:0;
     border:none;
     margin:0;
 }
@@ -218,10 +218,10 @@ max-height: 200px;
 max-width:500px;
 padding: 6px;
 margin-bottom: 20px;
-background-color:#282b2d;
+background-color:#fff;
 border: 1px solisd transparent;
 border-radius: 2px;
-    color:#fff;
+    color:#666666;
  
 
 
@@ -534,6 +534,22 @@ margin-top:10px;
 }
 
 
+.footer .titlesServices{
+
+margin-bottom:5px;
+
+}
+
+.footer address,.footer .panel ul li >a {
+
+
+font-family: helvectica, arial;
+    font-size:13px;
+
+}
+
+
+
 
 
 .footer{
@@ -609,8 +625,19 @@ footer{
     height:50px;
     bottom:0;
     margin:0;
+    padding-top:10px;
     
     
+}
+
+
+
+footer h6{
+    
+
+font-family: helvectica,Arial;
+
+
 }
 
 
@@ -627,7 +654,7 @@ footer{
 
 
 
-
+/*Media querys*/
 
 
 
