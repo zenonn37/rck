@@ -47,6 +47,15 @@ a:hover, a:focus{
 	color: #308ac6;
 }
 
+
+
+.navbar-brand {
+float: left;
+padding: 7px 15px;
+font-size: 18px;
+line-height: 20px;
+}
+
 .titles{
 	color: #f1c40f;
     padding:20px;
@@ -84,6 +93,12 @@ border-radius:none;
     margin:0;
 }
 
+.navbar-default .navbar-toggle {
+border-color: transparent;
+}
+
+
+
 
 
 
@@ -101,6 +116,45 @@ color: #666666;
 }
 
 
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+color: #555555;
+background-color: #262626;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+color: #ffffff;
+text-decoration: none;
+background-color:#F1C40F;
+}
+
+
+.dropdown-menu > li > a {
+display: block;
+padding: 3px 20px;
+clear: both;
+font-weight: 400;
+line-height: 1.428571429;
+color: #ecf0f1;
+white-space: nowrap;
+     text-transform:uppercase;
+}
+
+
+.dropdown-menu {
+position: absolute;
+
+
+
+
+background-color: #01020B;
+border: 1px solid #cccccc;
+border: 1px solid rgba(0, 0, 0, 0.15);
+border-radius: 2px;
+-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+background-clip: padding-box;
+}
 
 .jumbotron{
 	background: #2c3e50 url(img/car_final.png) 50% 50% no-repeat;
@@ -584,6 +638,19 @@ footer{
 
 
 @media(max-width:480px){
+    
+    
+    
+    
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+color: #f1c40f;
+background-color: transparent;
+}
+    
+      .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: transparent;
+}
 
             .jumbotron {
         
@@ -639,6 +706,8 @@ max-width:300px;
     
 max-height: 200px;
 max-width:300px;
+background-color:#fff;
+    color:#666666;
 
 
 
@@ -671,6 +740,21 @@ border-color: transparent;
    }
 
 }
+
+
+
+
+
+@media(max-width:768px){
+    
+    
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: transparent;
+}
+
+	.navbar-default .navbar-collapse{
+		background: none;
+	}
 
 /*colors
 
